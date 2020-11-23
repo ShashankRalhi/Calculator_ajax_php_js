@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CALCI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div id="title">
+        <h1>Calculator</h1>
+        <table cellspacing="15px">
+            <tr>
+                <td colspan="4"><input type="text" id="edu" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="digit('1')" /> </td>
+                <td><input type="button" value="2" onclick="digit('2')" /> </td>
+                <td><input type="button" value="3" onclick="digit('3')" /> </td>
+                <td><input type="button" value="+" onclick="opt('+')" /> </td>
+
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="digit('4')" /> </td>
+                <td><input type="button" value="5" onclick="digit('5')" /> </td>
+                <td><input type="button" value="6" onclick="digit('6')" /> </td>
+                <td><input type="button" value="-" onclick="opt('-')" /> </td>
+
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="digit('7')" /> </td>
+                <td><input type="button" value="8" onclick="digit('8')" /> </td>
+                <td><input type="button" value="9" onclick="digit('9')" /> </td>
+                <td><input type="button" value="*" onclick="opt('*')" /> </td>
+
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="digit('0')" /> </td>
+                <td><input type="button" value="/" onclick="opt('/')" /> </td>
+            </tr>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+
+</html>
